@@ -8,7 +8,7 @@ class Database {
     mongoose.set('strictQuery', false);
     mongoose.connect(this.uri)
     .then(()=>console.log('Database connected'))
-    .catch((err)=>('MongoDB connection error:', error.message))
+    .catch((err)=>('MongoDB connection error:', err.message))
   }
 }
 
