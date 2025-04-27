@@ -1,7 +1,7 @@
 ## **This project uses Nodemailer for email verification. To make it work after cloning the repository:**
 
 ### 1. Enable 2-Step Verification on your Google account (if not already enabled).
-### 2. Generate an App Password:
+### 2. Generate an App Password.
 ### 3. Put your email and app password in the `.env` file.
 ```
 EMAIL_USER=xyz@example.com
